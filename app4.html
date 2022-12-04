@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULAR IN HTML</title>
+</head>
+<body>
+	<h3>Invata informatii despre un formular</h3><br>
+	<form>
+		Nume : <input type="text" name="name" placeholder="Te rog introdu numele tau">
+		<br><br>
+		Adresa de email : <input type="email" name="email" placeholder="Te rog introdu adresa ta de emeil"><br><br>
+		Numar de telefon mobil : <input type="number" name="mobile_number" placeholder="Te rog scrie numarul tau de telefon"><br><br>
+		Adresa : <textarea name="address" placeholder="Te rog scrie adresa ta aici"></textarea><br><br>
+		Ziua ta de nastere : <input type="date" name="birth-date"><br><br>
+		Parola : <input type="text" name="password" placeholder="Te rog scrie parola ta"><br><br>
+		Gen : <br>
+		<input type="radio" id="male" name="gender" value="barbat">
+		<label for="male">Barbat</label><br>
+		<input type="radio" id="female" name="gender" value="femeie">
+		<label for="female">Femeie</label><br><br>
+		Skilluri : <br>
+		<input type="checkbox" id="HTML" name="skills" value="HTML">HTML<br>
+		<input type="checkbox" id="CSS" name="skills" value="CSS">CSS<br>
+		<input type="checkbox" id="JS" name="skills" value="JS">Javascript<br>
+		<br>
+		Oras : 
+		<select name="city" id="city">
+		<option value="Jakarta" selected>Cluj-Napoca</option>
+		<option value="New York">Oradea</option>
+		<option value="Tokyo">Timisoara</option>
+		<option value="Singapore">Craiova</option>
+	</select>
+	<br><br>
+	Descriere despre tine :
+	<textarea placeholder="Scrie descrierea ta despre tine"></textarea>
+	<br><br>
+	<input type="checkbox" id="agreement" name="terms&conditions" value="agreement">Sunt de acord cu termenii,conditiile si politica privata impusa.<br><br>
+	<input type="Submit"><br><br>
+	<input type="Reset"><br>
+	</form>
+</body>
+</html>
